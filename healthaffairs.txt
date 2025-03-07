@@ -1,0 +1,14 @@
+# Common_stanza used by: proxyiub, proxyko, proxysb
+# INCLUDEFILE ../common_stanzas/healthaffairs.txt
+
+Title Health Affairs
+URL https://www.healthaffairs.org
+HJ www.healthaffairs.org
+HJ healthaffairs.org
+DJ healthaffairs.org
+
+# Scienceconnect.io HJ & DJ lines added to resolve dropped proxy issue per ralight 2024-08-01
+HJ healthaffairs.scienceconnect.io
+DJ healthaffairs.scienceconnect.io
+
+Option Cookie

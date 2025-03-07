@@ -1,0 +1,34 @@
+# INCLUDEFILE ../common_stanzas/royal_society_of_chem.txt
+
+# Common_stanza used by: proxyiub, proxynw, proxysb
+
+# Updated per ralight 2024-08-28
+# Includes blogs.rsc.org which is not in OCLC stanza
+# Includes https version of xlink host which is not in OCLC stanza
+Title Royal Society of Chemistry (updated 20240827)
+URL http://pubs.rsc.org/
+HJ cds.rsc.org
+HJ ebook.rsc.org
+HJ edu.rsc.org
+HJ eic.rsc.org
+HJ https://books.rsc.org
+HJ https://cds.rsc.org
+HJ https://edu.rsc.org
+HJ https://eic.rsc.org
+HJ https://historical-collection.rsc.org
+HJ https://marinlit.rsc.org
+HJ https://merckindex.rsc.org
+HJ https://pubs.rsc.org
+HJ https://rsc.org
+HJ https://www.rsc.org
+HJ https://blogs.rsc.org
+HJ https://xlink.rsc.org
+HJ books.rsc.org
+HJ historical-collection.rsc.org
+HJ marinlit.rsc.org
+HJ merckindex.rsc.org
+HJ pubs.rsc.org
+HJ rsc.org
+HJ www.rsc.org
+HJ xlink.rsc.org
+DJ rsc.org

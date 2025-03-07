@@ -1,0 +1,53 @@
+# Common_stanza used by: proxyeast, proxyiub, proxynw, proxysb, proxyse
+
+# Updated per ralight 2024-04-17
+AnonymousURL +https://questservice.eb.com/api/*
+Title Britannica - Academic (updated 20240411)
+URL https://academic.eb.com
+HJ academic.eb.com
+HJ america.eb.com
+HJ archive.school.eb.com
+HJ escolar.eb.com
+HJ global.eb.com
+HJ https://individual.eb.com
+HJ https://school.eb.com
+HJ https://secure.eb.com
+HJ individual.eb.com
+HJ learningzone.eb.com
+HJ library.eb.co.uk
+HJ library.eb.com
+HJ library.eb.com.au
+HJ moderna.eb.com
+HJ os.eb.com
+HJ quest.eb.com
+HJ school.eb.co.uk
+HJ school.eb.com
+HJ search.eb.com
+HJ secure.eb.com
+HJ sources.eb.com
+HJ spanish.eb.com
+HJ world.britannica.com
+HJ world.eb.com
+HJ www.academic.eb.com
+HJ www.america.eb.com
+HJ www.global.eb.com
+HJ www.library.eb.co.uk
+HJ www.library.eb.com
+HJ www.library.eb.com.au
+HJ www.moderna.eb.com
+HJ www.quest.eb.com
+HJ www.school.eb.com
+HJ www.search.eb.com
+HJ www.sources.eb.com
+HJ www.spanish.eb.com
+HJ www.world.britannica.com
+HJ www.world.eb.com
+DJ academic.eb.com
+DJ eb.com
+AnonymousURL -*
+NeverProxy media.web.britannica.com
+NeverProxy cache-media.britannica.com
+NeverProxy media-1.web.britannica.com
+NeverProxy media-2.web.britannica.com
+NeverProxy media-3.web.britannica.com
+NeverProxy atlas.eb.com

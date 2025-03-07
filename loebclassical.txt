@@ -1,0 +1,15 @@
+# Common_stanza used by: proxyeast, proxyiub, proxyko, proxynw, proxysb, proxyse
+
+# Updated per ralight 2024-02-12
+MimeFilter application/json .* javascript
+Title Loeb Classics (updated 20200812)
+HTTPHeader -request -process X-Requested-With
+URL https://www.loebclassics.com/
+HJ https://www.hup.harvard.edu
+HJ hup.harvard.edu
+HJ loebclassics.com
+HJ www.hup.harvard.edu
+HJ www.loebclassics.com
+DJ hup.harvard.edu
+DJ loebclassics.com
+DJ www.loebclassics.com

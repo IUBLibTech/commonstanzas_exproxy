@@ -1,0 +1,13 @@
+# Common_stanza used by: proxyiub, proxysb
+# INCLUDEFILE ../common_stanzas/soc_industrial_appliedmath.txt
+
+# Updated per ralight 2024-05-22
+Title Society for Industrial and Applied Mathematics (updated 20240522)
+URL https://epubs.siam.org/
+HJ epubs.siam.org
+HJ https://epubs.siam.org
+HJ https://siam.org
+HJ https://www.siam.org
+HJ siam.org
+HJ www.siam.org
+DJ siam.org

@@ -1,0 +1,130 @@
+# Common_stanza used by: proxyeast, proxyiub, proxyiublaw, proxyko, proxynw, proxysb, proxyse
+# INCLUDEFILE ../common_stanzas/gale.txt
+
+# Updated per ralight 2025-03-06
+HTTPMethod OPTIONS
+AnonymousURL -Options +https://appapi.chiltonlibrary.com/*
+AnonymousURL +https://appapi.chiltonlibrary.com/*
+Title Gale Products (updated 20250228)
+HTTPHeader -request -process X-XSRF-TOKEN
+URL https://link.gale.com/apps/menu
+MimeFilter application/json .* javascript
+MimeFilter text/plain .* javascript
+HJ auth.go.gale.com
+HJ bi.gale.com
+HJ chiltonlibrary.com
+HJ demographicsnow.gale.com
+HJ dnow.gale.com
+HJ find.gale.com
+HJ find.galegroup.com
+HJ galeapps.gale.com
+HJ galenet.gale.com
+HJ galepages.com
+HJ gdc.gale.com
+HJ gdc.galegroup.com
+HJ go.gale.com
+HJ go.galegroup.com
+HJ https://app.chiltonlibrary.com
+HJ https://appapi.chiltonlibrary.com
+HJ https://appcontent.chiltonlibrary.com
+HJ https://auth.go.gale.com
+HJ https://bi.gale.com
+HJ https://demographicsnow.gale.com
+HJ https://dnow.gale.com
+HJ https://find.gale.com
+HJ https://find.galegroup.com
+HJ https://galenet.gale.com
+HJ https://galenet.galegroup.com
+HJ https://galepages.com
+HJ https://gdc.gale.com
+HJ https://gdc.galegroup.com
+HJ https://go.gale.com
+HJ https://go.galegroup.com
+HJ https://infotrac.gale.com
+HJ https://infotrac.galegroup.com
+HJ https://link.gale.com
+HJ https://link.galegroup.com
+HJ https://lst.gale.com
+HJ https://lst.galegroup.com
+HJ https://misshumblebee.com
+HJ https://natgeo.gale.com
+HJ https://sa.gale.com
+HJ https://tinyurl.gale.com
+HJ https://worldscholar.gale.com
+HJ https://www.galepages.com
+HJ infotrac.galegroup.com
+HJ link.gale.com
+HJ link.galegroup.com
+HJ lst.gale.com
+HJ lst.galegroup.com
+HJ natgeo.gale.com
+HJ sa.gale.com
+HJ tinyurl.gale.com
+HJ worldscholar.gale.com
+HJ www.galepages.com
+DJ gale.com
+DJ galegroup.com
+DJ galepages.com
+NeverProxy cyber.gale.com
+NeverProxy apis.google.com
+NeverProxy gale.udemy.com
+NeverProxy careerprep.petersons.com
+NeverProxy tcpr.petersons.com
+NeverProxy sso.connect.pingidentity.com
+AnonymousURL -*
+
+# Lines below support Legacy Gale/Infotrac/PowerSearch Databases which operate on the galegroup domain. 
+HJ auth.go.galegroup.com
+HJ bi.galegroup.com
+HJ bna.galegroup.com
+HJ careertransitions.galegroup.com
+HJ cyber.galegroup.com
+HJ find.galegroup.com
+HJ galeauth.galegroup.com
+HJ galenet.galegroup.com
+HJ gdc.galegroup.com
+HJ go.galegroup.com
+HJ ic.galegroup.com
+HJ infotrac.galegroup.com
+HJ infotrac.london.galegroup.com
+HJ link.galegroup.com
+HJ natgeo.galegroup.com
+HJ ncco.galegroup.com
+HJ ncco.tu.galegroup.com
+HJ pdfserve.galegroup.com
+HJ sa.galegroup.com
+HJ shakespeare.galegroup.com
+HJ tinyurl.galegroup.com
+HJ vs.galegroup.com
+HJ www.infotrac.london.galegroup.com
+HJ galeapps.galegroup.com
+HJ worldscholar.galegroup.com 
+HJ https://auth.go.galegroup.com
+HJ https://bi.galegroup.com
+HJ https://bna.galegroup.com
+HJ https://careertransitions.galegroup.com
+HJ https://find.galegroup.com
+HJ https://cyber.galegroup.com
+HJ https://galeauth.galegroup.com
+HJ https://galenet.galegroup.com
+HJ https://gdc.galegroup.com
+HJ https://go.galegroup.com
+HJ https://ic.galegroup.com
+HJ https://infotrac.galegroup.com
+HJ https://infotrac.london.galegroup.com
+HJ https://link.galegroup.com
+HJ https://natgeo.galegroup.com
+HJ https://ncco.galegroup.com
+HJ https://ncco.tu.galegroup.com
+HJ https://pdfserve.galegroup.com
+HJ https://sa.galegroup.com
+HJ https://shakespeare.galegroup.com
+HJ https://support.gale.com
+HJ https://tinygaleurl.com
+HJ https://tinyurl.galegroup.com
+HJ https://vs.galegroup.com
+HJ https://www.infotrac.london.galegroup.com
+HJ https://worldscholar.galegroup.com 
+# additional http host added for Smithsonian MARC records per RAL 2020-10-12
+HJ http://find.galegroup.com
+NeverProxy rs.find.galegroup.com

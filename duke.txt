@@ -1,0 +1,17 @@
+# Common_stanza used by: proxyiub, proxyko, proxynw, proxysb, proxyse
+# INCLUDEFILE ../common_stanzas/duke.txt
+
+# Updated per ralight 2024-06-05
+# HTTPheader lines localized by recommendation from OCLC to prevent issues with other resources. Does not match OCLC site stanza.
+Title Duke University Press Books and Journals (updated 20240603)
+HTTPHeader -request -process X-Requested-With
+HTTPHeader -request -process X-Tizra-Ajax
+URL https://read.dukeupress.edu
+HJ dukeupress.edu
+HJ read.dukeupress.edu
+HJ reader.dukeupress.edu
+HJ https://dukeupress.edu
+HJ https://www.dukeupress.edu
+HJ https://reader.dukeupress.edu
+HJ www.dukeupress.edu
+DJ dukeupress.edu

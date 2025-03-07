@@ -1,0 +1,13 @@
+# INCLUDEFILE ../common_stanzas/mitpressdirect.txt
+
+# Common_stanza used by: proxyeast, proxyiub, proxyiublaw, proxyko, proxynw, proxysb, proxyse
+
+# Updated per ralight 2024-01-29
+# HTTPheader lines localized by recommendation from OCLC to resolve issue with other resources. Does not match OCLC site stanza.
+Title The MIT Press Direct (updated 20190410)
+HTTPHeader -request -process X-Tizra-Ajax
+HTTPHeader -request -process X-Requested-With
+URL https://direct.mit.edu
+HJ http://direct.mit.edu
+HJ https://direct.mit.edu
+DJ mit.edu

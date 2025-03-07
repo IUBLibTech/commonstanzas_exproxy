@@ -1,0 +1,12 @@
+# Common_stanza used by:  proxyeast, proxyiub, proxyko, proxynw, proxyse
+# INCLUDEFILE ../common_stanzas/mergent.txt
+
+
+
+# added per CWL 1-10-25
+Title Mergent Market Atlas
+URL https://marketatlas.mergent.com
+HJ https://marketatlas.mergent.com
+DJ marketatlas.mergent.com
+NeverProxy www.gstatic.com
+NeverProxy fonts.gstatic.com
