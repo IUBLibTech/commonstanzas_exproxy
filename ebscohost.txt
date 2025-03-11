@@ -1,7 +1,9 @@
 #INCLUDEFILE ../common_stanzas/ebscohost.txt
 # Common_stanza used by: proxyeast, proxyiub, proxyiublaw, proxyko, proxynw, proxysb, proxyse
 
-# Updated per ralight 2025-01-22
+
+# Updated per ralight 2025-03-11
+# Removed extraneous spaces to try to resolve needhost error
 Option DomainCookieOnly
 Title -hide EBSCO LinkSource
 URL https://linksource.ebsco.com
@@ -21,8 +23,8 @@ HTTPHeader -request -process userIdentifier
 HTTPHeader -request -process X-EIS-FEATURE-FLAG
 HTTPHeader -request -process X-EIS-STSTOKEN
 URL https://search.ebscohost.com/login.aspx
-HJ  https://apis.ebsco.com
-HJ  apis.ebsco.com
+HJ https://apis.ebsco.com
+HJ apis.ebsco.com
 HJ https://connection.ebscohost.com
 HJ connection.ebscohost.com
 HJ https://discovery.ebsco.com
