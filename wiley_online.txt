@@ -1,8 +1,7 @@
 # Common_stanza used by: proxyeast, proxyiub, proxyko, proxynw, proxysb, proxyse
 # INCLUDEFILE ../common_stanzas/wiley_online.txt
 
-
-# Updated per ralight 2025-03-06
+# Updated per ralight 2025-04-02
 AnonymousURL +https://*.onlinelibrary.wiley.com/action/*
 Option DomainCookieOnly
 Option X-Forwarded-For
@@ -10,7 +9,7 @@ HTTPMethod OPTIONS
 HTTPMethod DELETE
 HTTPMethod PUT
 Cookie theproxy=ezproxy; domain=.onlinelibrary.wiley.com
-Title Wiley Online (20250303)
+Title Wiley Online (20250331)
 MimeFilter application/json .* javascript
 MimeFilter text/plain .* javascript
 HTTPHeader -request -process X-Requested-With
@@ -177,7 +176,6 @@ HJ https://tes.onlinelibrary.wiley.com
 HJ https://theoncologist.onlinelibrary.wiley.com
 HJ https://wchh.onlinelibrary.wiley.com
 HJ https://wildlife.onlinelibrary.wiley.com
-HJ https://wiley.scienceconnect.io
 HJ https://wileyonlinelibrary.com
 HJ https://wires.wiley.com
 HJ https://www.birpublications.org
@@ -232,7 +230,6 @@ HJ tes.onlinelibrary.wiley.com
 HJ theoncologist.onlinelibrary.wiley.com
 HJ wchh.onlinelibrary.wiley.com
 HJ wildlife.onlinelibrary.wiley.com
-HJ wiley.scienceconnect.io
 HJ wileyonlinelibrary.com
 HJ wires.wiley.com
 HJ www.birpublications.org
@@ -256,3 +253,4 @@ DJ wileyonlinelibrary.com
 Option NoX-Forwarded-For
 Option Cookie
 AnonymousURL -*
+NeverProxy wiley.scienceconnect.io
