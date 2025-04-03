@@ -1,0 +1,14 @@
+# INCLUDEFILE ../common_stanzas/knovel.txt
+
+# Common_stanza used by: proxyiub, proxyko, proxynw
+
+# Updated per ralight 2025-04-02
+Title Knovel (updated 20250331)
+URL https://app.knovel.com/kn
+HJ http://app.knovel.com
+HJ https://app.knovel.com
+HJ https://www.knovel.com
+HJ app.knovel.com
+DJ knovel.com
+NeverProxy content.knovel.com
+NeverProxy public.knovel.com
