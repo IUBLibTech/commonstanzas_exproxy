@@ -3,10 +3,10 @@
 # Common_stanza used by: proxyeast, proxyiub, proxyko, proxynw, proxysb, proxyse
 # INCLUDEFILE ../common_stanzas/amdigital.txt
 
-# Updated per ralight 2025-04-23
+# Updated per ralight 2025-04-30
 Option CookiePassThrough
 AnonymousURL -OPTIONS +https://*.quartexcollections.com*
-Title Adam Matthew Digital - New Stanza (updated 202504014)
+Title Adam Matthew Digital - New Stanza (updated 20250427)
 HTTPHeader -request -process quartex-additionalauth
 URL http://www.login.amdigital.co.uk
 HJ broadcastingamerica.amdigital.co.uk
@@ -30,7 +30,6 @@ HJ https://www.americanindiannewspapers.amdigital.co.uk
 HJ https://www.americanwest.amdigital.co.uk
 HJ https://www.amnestyinternationalhumanrights.amdigital.co.uk
 HJ https://www.amexplorer.amdigital.co.uk
-HJ https://www.amresearchmethods.amdigital.co.uk
 HJ https://www.amresearchmethods.amdigital.co.uk
 HJ https://www.amresearchskills.amdigital.co.uk
 HJ https://www.amscholar.amdigital.co.uk
@@ -158,6 +157,8 @@ DJ amdigital.co.uk
 DJ quartexcollections.com
 Find http://"+getPrefix()+".massobservation.amdigital.co.uk
 Replace http://"+getPrefix()+".^Pmassobservation.amdigital.co.uk^
+AnonymousURL -*
+Option Cookie
 
 # Updated per RAL 2020-06-18
 Title Adam Matthew Digital
