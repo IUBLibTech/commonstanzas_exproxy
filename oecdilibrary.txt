@@ -1,4 +1,7 @@
 # Common_stanza used by: proxyeast, proxyiub, proxyko, proxynw, proxysb, proxyse
+# INCLUDEFILE ../common_stanzas/oecdilibrary.txt
+
+# Resource now has external authentication, disabled in all instances. 
 
 # Updated per ralight 2024-01-31
 AnonymousURL +https://dotstat-search.oecd.org/api/search?tenant=oecd
