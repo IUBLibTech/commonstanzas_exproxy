@@ -1,0 +1,12 @@
+# Common_stanza used by: proxyeast, proxyiub, proxyko, proxynw
+# INCLUDEFILE ../common_stanzas/marketline_advantage.txt 
+
+# Updated per ralight 2025-06-04
+Title MarketLine Advantage (updated 20250602)
+URL https://advantage.marketline.com
+HJ https://advantage.marketline.com
+HJ advantage.marketline.com
+HJ https://new.marketline.com
+HJ new.marketline.com
+DJ marketline.com
+NeverProxy analytics.globaldata.com
