@@ -1,0 +1,38 @@
+# Common_stanza used by: proxyeast, proxyiub, proxyko, proxynw, proxysb, proxyse
+# INCLUDEFILE ../common_stanzas/springerlink.txt
+
+# Updated per ralight 2025-06-11
+Option DomainCookieOnly
+Title SpringerLink (updated 20250610)
+URL https://link.springer.com
+HJ aa.springer.de
+HJ adisonline.com
+HJ download.springer.com
+HJ ebooks.springerlink.com
+HJ https://adisonline.com
+HJ https://link.springer.com
+HJ https://rd.springer.com
+HJ https://springer.com
+HJ https://www.adisonline.com
+HJ https://www.link.springer.com
+HJ https://www.springer.com
+HJ https://www.springerlink.com
+HJ link.springer-ny.com
+HJ link.springer.com
+HJ link.springer.de
+HJ rd.springer.com
+HJ springer.com
+HJ springerlink.metapress.com
+HJ www.adisonline.com
+HJ www.link.springer.com
+HJ www.springer.com
+HJ www.springerlink.com
+DJ springer.de
+DJ springerlink.com
+DJ springer.com
+DJ sprn.gr 
+DJ springer-ny.com
+Find springernature?redirect_uri=https://
+Replace springernature?redirect_uri=https://^A
+NeverProxy static-content.springer.com
+Option Cookie
