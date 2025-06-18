@@ -3,10 +3,10 @@
 # Common_stanza used by: proxyeast, proxyiub, proxyko, proxynw, proxysb, proxyse
 # INCLUDEFILE ../common_stanzas/amdigital.txt
 
-# Updated per ralight 2025-06-04
+# Updated per ralight 2025-06-18
 Option CookiePassThrough
 AnonymousURL -OPTIONS +https://*.quartexcollections.com*
-Title Adam Matthew Digital- New Stanza (updated 20250530)
+Title Adam Matthew Digital - New Stanza (updated 20250612)
 HTTPHeader -request -process quartex-additionalauth
 URL http://www.login.amdigital.co.uk
 HJ broadcastingamerica.amdigital.co.uk
@@ -114,7 +114,7 @@ HJ https://www.researchsource.amdigital.co.uk
 HJ https://www.rockandroll.amdigital.co.uk
 HJ https://www.romanticism.amdigital.co.uk
 HJ https://www.royalshakespearecompanyarchives.amdigital.co.uk
-HJ https://www.search.amdigital.co.uk
+HJ https://search.amdigital.co.uk
 HJ https://www.servicenewspapers.amdigital.co.uk
 HJ https://www.sexandsexuality.amdigital.co.uk
 HJ https://www.shakespeareinperformance.amdigital.co.uk
