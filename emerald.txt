@@ -1,0 +1,11 @@
+# INCLUDEFILE ../common_stanzas/emerald.txt
+# Common_stanza used by: proxyeast, proxyiub, proxyko, proxynw, proxysb, proxyse
+
+# Updated per ralight 2025-07-23
+Title Emerald (Updated 20250718)
+URL https://www.emerald.com
+HJ emerald.com
+HJ https://emerald.com
+HJ https://www.emerald.com
+HJ www.emerald.com
+DJ emerald.com
