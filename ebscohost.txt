@@ -2,20 +2,14 @@
 # Common_stanza used by: proxyeast, proxyiub, proxyiublaw, proxyko, proxynw, proxysb, proxyse
 
 
-# Updated per ralight 2025-06-04
-Option DomainCookieOnly
-Title -hide EBSCO LinkSource
-URL https://linksource.ebsco.com
-HJ https://linksource.ebsco.com
-HJ linksource.ebsco.com
+# Updated per ralight 2025-08-06
 Option Cookie
-#
 ProxyHostnameEdit healthlibrary.epnet.com$ healthlibrary-epnet-com
 AddUserHeader -base64 X-EBSCO-PROXY-Username
 Option MetaEZproxyRewriting
 AnonymousURL https://ppws.ebsco-content.com/*
 AnonymousURL +https://apis.ebsco.com/public/*
-Title EBSCOhost (updated 20250530)
+Title EBSCOhost (updated 20250805)
 HTTPHeader -request -process Authorization
 HTTPHeader -request -process OPAQUE-TOKEN
 HTTPHeader -request -process userIdentifier
