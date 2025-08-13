@@ -1,0 +1,24 @@
+# INCLUDEFILE ../common_stanzas/modernlanguageassociation.txt
+# Common_stanza used by: proxyiub, proxyko, proxynw, proxysb
+
+# Updated per ralight 2025-08-13
+Title Modern Language Association (updated 20250807)
+URL http://www.mla.org
+HJ mla.org
+HJ mlajournals.org
+HJ www.mla.org
+HJ www.mlajournals.org
+HJ https://mlajournals.org
+HJ https://www.mla.org
+HJ https://www.mlajournals.org
+HJ https://www.ade.mla.org
+HJ https://www.adfl.mla.org
+HJ https://mlahandbookplus.org
+DJ mla.org
+DJ mlajournals.org
+Find https:\/\/
+Replace https://
+Find doi.org  
+Replace ^Adoi.org  
+Find dx.doi.org  
+Replace ^Adx.doi.org
