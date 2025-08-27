@@ -1,7 +1,7 @@
 # Common_stanza used by: proxyiub, proxyko, proxysb, proxyse
 # INCLUDEFILE ../common_stanzas/filmsondemand.txt
 
-Updated per ralight 2025-08-06
+# Updated per ralight 2025-08-06
 Title Films on Demand (updated 20250731)
 URL https://fod.infobase.com
 H fod.infobase.com
