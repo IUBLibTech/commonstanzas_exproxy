@@ -2,17 +2,18 @@
 
 # Common_stanza used by: proxyiub, proxyse
 
-# Updated per ralight 2024-11-20
-# Does not match OCLC stanza
-Title IG Publishing eBook
-HTTPHeader -request -process Wicket-*
+# Updated per ralight 2025-09-17
+Title IG Publishing eBook (updated 20250915)
+HTTPHeader -request -process X-Session-Id
+HTTPHeader -request -process X-Token
 URL https://portal.igpublish.com/
-HJ http://portal.igpublish.com
+HJ https://portal.igpublish.com
 HJ portal.igpublish.com
-HJ a.cloud.igpublish.com
-HJ igpublish.com
+HJ https://new.igpublish.com
+HJ new.igpublish.com
 # Host added to eliminate needhost error
 HJ https://a.cloud.igpublish.com
+DJ new.igpublish.com
 DJ igpublish.com
 NeverProxy 101.igpublish.com
 NeverProxy 101.igpublish.com:5000
