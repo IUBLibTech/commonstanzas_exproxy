@@ -1,4 +1,4 @@
-#INCLUDEFILE ../common_stanzas/elsevier.txt
+# INCLUDEFILE ../common_stanzas/elsevier.txt
 # Common_stanza used by: proxyeast, proxyiub, proxyko, proxynw, proxysb, proxyse
 
 # Updated per ralight 2025-10-23
