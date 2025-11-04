@@ -1,0 +1,28 @@
+# INCLUDEFILE ../common_stanzas/chronicle.txt
+# Common_stanza used by: proxyeast, proxyiub, proxyko, proxynw, proxysb, proxyse
+
+# Updated per ralight 2025-11-04
+AnonymousURL +https://sh.chronicle.com/*
+AnonymousURL +https://data.chronicle.com/*
+AnonymousURL +https://data.shorthand.com/*
+Title The Chronicle of Higher Education (updated 20190726)
+URL https://www.chronicle.com
+HJ chronicle.com
+HJ data.chronicle.com
+HJ data.shorthand.com
+HJ https://data.shorthand.com
+HJ projects.chronicle.com
+HJ www.chronicle.com
+HJ https://chronicle.com
+HJ https://data.chronicle.com
+HJ https://projects.chronicle.com
+HJ https://sh.chronicle.com
+HJ www.chronicle.com
+# Community host not in OCLC stanza added per RAL 2020-12-09
+HJ https://community.chronicle.com
+DJ data.shorthand.com
+DJ www.chronicle.com
+Find data-url="//data.shorthand.com
+Replace data-url="https://data.shorthand.com
+NeverProxy hive.chronicle.com
+AnonymousURL -*
