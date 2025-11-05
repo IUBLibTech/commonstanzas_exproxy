@@ -3,7 +3,7 @@
 # Common_stanza used by: proxyeast, proxyiub, proxyko, proxynw, proxysb, proxyse
 # INCLUDEFILE ../common_stanzas/amdigital.txt
 
-# Updated per ralight 2025-10-15
+# Updated per ralight 2025-11-05
 Option CookiePassThrough
 AnonymousURL -OPTIONS +https://*.quartexcollections.com*
 AnonymousURL +https://frontend-api.quartexcollections.com/*
