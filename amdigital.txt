@@ -7,8 +7,9 @@
 Option CookiePassThrough
 AnonymousURL -OPTIONS +https://*.quartexcollections.com*
 AnonymousURL +https://frontend-api.quartexcollections.com/*
-Title Adam Matthew Digital - New Stanza (updated 20251014)
+Title Adam Matthew Digital - New Stanza (updated 20251027)
 HTTPHeader -request -process quartex-additionalauth
+HTTPHeader -response -block Content-Security-Policy
 URL http://www.login.amdigital.co.uk
 HJ broadcastingamerica.amdigital.co.uk
 HJ https://1980scultureandsociety.amdigital.co.uk
@@ -76,6 +77,7 @@ HJ https://www.frontierlife.amdigital.co.uk
 HJ https://www.gender.amdigital.co.uk
 HJ https://www.genderidentityandsocialchange.amdigital.co.uk
 HJ https://www.gildedage.amdigital.co.uk
+HJ https://www.girlhood.amdigital.co.uk
 HJ https://www.globalcommodities.amdigital.co.uk
 HJ https://www.globalhistoryofepidemics.amdigital.co.uk
 HJ https://www.grandtour.amdigital.co.uk
@@ -87,6 +89,7 @@ HJ https://www.indigenousnewspapersinnorthamerica.amdigital.co.uk
 HJ https://www.interwarculture.amdigital.co.uk
 HJ https://www.jewishlife.amdigital.co.uk
 HJ https://www.jwtadvertisingamerica.amdigital.co.uk
+HJ https://www.latinamericanhistories.amdigital.co.uk
 HJ https://www.lifeatsea.amdigital.co.uk
 HJ https://www.literarymanuscriptsberg.amdigital.co.uk
 HJ https://www.literarymanuscriptsleeds.amdigital.co.uk
