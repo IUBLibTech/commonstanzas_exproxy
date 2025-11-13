@@ -3,11 +3,11 @@
 # Common_stanza used by: proxyeast, proxyiub, proxyko, proxynw, proxysb, proxyse
 # INCLUDEFILE ../common_stanzas/amdigital.txt
 
-# Updated per ralight 2025-11-05
+# Updated per ralight 2025-11-13
 Option CookiePassThrough
 AnonymousURL -OPTIONS +https://*.quartexcollections.com*
 AnonymousURL +https://frontend-api.quartexcollections.com/*
-Title Adam Matthew Digital - New Stanza (updated 20251027)
+Title Adam Matthew Digital - New Stanza (updated 20251111)
 HTTPHeader -request -process quartex-additionalauth
 HTTPHeader -response -block Content-Security-Policy
 URL http://www.login.amdigital.co.uk
@@ -82,6 +82,7 @@ HJ https://www.globalcommodities.amdigital.co.uk
 HJ https://www.globalhistoryofepidemics.amdigital.co.uk
 HJ https://www.grandtour.amdigital.co.uk
 HJ https://www.hindicinema.amdigital.co.uk
+HJ https://www.independentpublishinginamerica.amdigital.co.uk
 HJ https://www.indiaraj.amdigital.co.uk
 HJ https://www.indigenoushistoriesandcultures.amdigital.co.uk
 HJ https://www.indigenoushistoriesandculturesinnorthamerica.amdigital.co.uk
