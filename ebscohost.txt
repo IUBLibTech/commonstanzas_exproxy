@@ -2,7 +2,7 @@
 # Common_stanza used by: proxyeast, proxyiub, proxyiublaw, proxyko, proxynw, proxysb, proxyse
 
 
-# Updated per ralight 2025-10-23
+# Updated per ralight 2025-11-21
 HTTPMethod DELETE
 HTTPMethod PUT  
 HTTPMethod PATCH
@@ -171,4 +171,6 @@ NeverProxy shibboleth.ebscohost.com
 NeverProxy signin.ebsco.zone
 NeverProxy vttts.rs.ebscohost.com
 NeverProxy widgets.ebscohost.com
+# Neverproxy added temporarily per EBSCO instruction to resolve access issue 2025-11-21
+NeverProxy viewer.ebscohost.com 
 AddUserHeader
