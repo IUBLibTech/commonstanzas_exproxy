@@ -18,6 +18,8 @@ HJ online.tableau.com
 HJ sciencedirect.com
 HJ tableau-admintool.elsevier.com
 HJ www.elsevier.com
+# HJ added to reduce needhost errors
+HJ pdf.sciencedirectassets.com
 DJ els-cdn.com
 DJ sciencedirect.com
 DJ elsevier.com
