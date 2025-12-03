@@ -1,8 +1,8 @@
 # Common_stanza used by: proxyeast, proxyiub, proxynw, proxysb, proxyse
 
-# Updated per ralight 2024-04-17
+# Updated per ralight 2025-02-03
 AnonymousURL +https://questservice.eb.com/api/*
-Title Britannica - Academic (updated 20240411)
+Title Britannica - Academic (updated 20251201)
 URL https://academic.eb.com
 HJ academic.eb.com
 HJ america.eb.com
@@ -10,6 +10,7 @@ HJ archive.school.eb.com
 HJ escolar.eb.com
 HJ global.eb.com
 HJ https://individual.eb.com
+HJ https://quest.eb.com
 HJ https://school.eb.com
 HJ https://secure.eb.com
 HJ individual.eb.com
