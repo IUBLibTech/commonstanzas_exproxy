@@ -1,5 +1,5 @@
 # INCLUDEFILE ../common_stanzas/sage.txt
-# Common_stanza used by: proxyiub, proxyeast, proxyko, proxynw, proxysb, proxyse
+# Common_stanza used by: proxyiub, proxyiublaw, proxyeast, proxyko, proxynw, proxysb, proxyse
 
 # Updated per ralight 2025-12-10
 Title Sage Journals (updated 20251209)
