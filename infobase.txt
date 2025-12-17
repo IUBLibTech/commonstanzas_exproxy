@@ -1,5 +1,5 @@
 # INCLUDEFILE ../common_stanzas/infobase.txt
-# Common_stanza used by: proxyeast, proxyiub, proxyko, proxysb
+# Common_stanza used by: proxyeast, proxyiub, proxyko, proxynw, proxysb
 
 # Updated per ralight 2025-1210
 AnonymousURL +https://ibaseptn.infobase.com/graphql
