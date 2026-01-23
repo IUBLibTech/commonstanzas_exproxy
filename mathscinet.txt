@@ -1,0 +1,20 @@
+# INCLUDEFILE ../common_stanzas/mathscinet.txt
+# This INCLUDEFILE line must appear in the always authenicate section of the config.txt or in the campuses requireauthentication.txt
+
+# Common_stanza used by: proxyeast, proxyiub, proxyko, proxynw, proxysb, proxyse
+
+# Updated per ralight 2026-01-23
+# Does not support IPv6
+Title MathSciNet (updated 20220628)
+URL https://mathscinet.ams.org
+HJ http://www.ams.org/mathscinet
+HJ https://www.ams.org/mathscinet
+HJ https://www.ams.org/journals
+HJ http://www.ams.org/journals
+HJ https://www.ams.org/publications/ebooks/ebooks
+HJ http://www.ams.org/publications/ebooks/ebooks
+HJ mathscinet.ams.org
+HJ ams.org
+HJ https://ams.org
+DJ mathscinet.ams.org
+DJ ams.org
