@@ -2,7 +2,7 @@
 # Common_stanza used by: proxyeast, proxyiub, proxynw, proxysb, proxyse
 
 # Stanza must follow Wiley Online Library
-Updated per ralight 2025-11-05
+# Updated per ralight 2025-11-05
 AnonymousURL +https://data-test.cochrane.org/*.js*
 AnonymousURL +https://data-test.cochrane.org/search/picoconcepts*
 AnonymousURL +https://data-test.cochrane.org/pico-search?*
