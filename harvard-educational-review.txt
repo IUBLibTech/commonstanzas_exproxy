@@ -1,4 +1,4 @@
-# INCLUDEFILE ../common_stanzas/harvard-educational-review
+# INCLUDEFILE ../common_stanzas/harvard-educational-review.txt
 # This INCLUDEFILE line must appear in the always authenicate section of the config.txt or in the campuses requireauthentication.txt
 
 # Common_stanza used by: proxyiub, proxysb, proxyse
