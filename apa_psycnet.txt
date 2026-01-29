@@ -2,8 +2,8 @@
 
 # Common_stanza used by: proxyiub, proxyko, proxynw, proxysb
 
-# Updated per ralight 2024-03-27
-Title APA PsycNET (updated 20240325)
+# Updated per ralight 2026-01-29
+Title APA PsycNET (updated 20260121)
 URL https://psycnet.apa.org
 HJ https://content.apa.org
 HJ content.apa.org
@@ -30,5 +30,7 @@ HJ www.apa.org
 HJ www.psycinfo.com
 DJ apa.org
 DJ psycinfo.com
-NeverProxy https://static.apa.org
-NeverProxy https://cdnjs.cloudflare.com
+NeverProxy static.apa.org
+NeverProxy cdnjs.cloudflare.com
+NeverProxy mystatic1a.apa.org
+NeverProxy mystatic1b.apa.org
