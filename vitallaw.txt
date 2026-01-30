@@ -1,5 +1,6 @@
-Common_stanza used by: proxyiub, proxyiublaw, proxyko
 # INCLUDEFILE ../common_stanzas/vitallaw.txt
+# Common_stanza used by: proxyiub, proxyiublaw, proxyko
+
 
 # Updated per ralight 2023-06-14
 Title Vitallaw Premium (OCLC IncludeFile updated 20230612)
