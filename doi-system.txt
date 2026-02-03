@@ -1,0 +1,10 @@
+# Common_stanza used by: proxyeast, proxyiub, proxyiublaw, proxyko, proxynw, proxysb, proxyse
+# INCLUDEFILE ../common_stanzas/doi-system.txt
+
+# Updated per ralight 2026-02-03
+Title DOI System
+URL http://doi.org
+Host https://doi.org
+Host dx.doi.org
+Host https://dx.doi.org
+Domain doi.org
