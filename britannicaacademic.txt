@@ -60,3 +60,13 @@ HJ eb.com
 HJ www.britannica.com
 HJ www.eb.com
 DJ britannica.com
+
+# Added per ralight 2022-07-06
+# Keep stanza with Britannica Academic stanza
+# Also called Merriam-Webster Unabridged
+T M-W Unabridged
+U https://dictionary.eb.com
+D eb.com
+D merriam-webster.com
+H www.dictionary.eb.com
+H unabridged.merriam-webster.com
