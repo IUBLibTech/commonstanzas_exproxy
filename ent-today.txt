@@ -1,0 +1,10 @@
+# INCLUDEFILE ../common_stanzas/ent-today.txt
+
+# Common_stanza used by: proxyeast, proxyko, proxynw, proxysb
+
+# Updated per ralight 2026-02-17
+Title Ent Today 
+URL https://www.enttoday.org/
+HJ http://www.enttoday.org
+HJ www.enttoday.org
+DJ enttoday.org
