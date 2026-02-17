@@ -2,11 +2,12 @@
 # Common_stanza used by: proxyeast, proxyiub, proxynw, proxysb, proxyse
 
 # Stanza must follow Wiley Online Library
-# Updated per ralight 2025-11-05
+# Updated per ralight 2026-02-17
+ByteServe ^https://www.cochranelibrary.com/en/advanced-search/pico$
 AnonymousURL +https://data-test.cochrane.org/*.js*
 AnonymousURL +https://data-test.cochrane.org/search/picoconcepts*
 AnonymousURL +https://data-test.cochrane.org/pico-search?*
-Title Cochrane (updated 20251103)
+Title Cochrane (updated 20260213)
 HTTPHeader -request -process X-Requested-With
 URL https://www.cochranelibrary.com/
 HJ cochrane.org
