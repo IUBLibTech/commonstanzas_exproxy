@@ -52,3 +52,11 @@ NeverProxy media-1.web.britannica.com
 NeverProxy media-2.web.britannica.com
 NeverProxy media-3.web.britannica.com
 NeverProxy atlas.eb.com
+
+Title Britannica - Consumer (updated 20240411)
+URL https://britannica.com
+HJ britannica.com
+HJ eb.com
+HJ www.britannica.com
+HJ www.eb.com
+DJ britannica.com
