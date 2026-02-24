@@ -1,5 +1,5 @@
-# # Common_stanza used by: proxyiub, proxysb, proxyse
 # INCLUDEFILE ../common_stanzas/psychotherapy-net.txt
+# Common_stanza used by: proxyiub, proxysb, proxyse
 
 # Updated per ralight 2026-02-24
 # Added new hosts for upcoming academic subscriber URL change
