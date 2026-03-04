@@ -2,8 +2,8 @@
 
 # Common_stanza used by: proxyeast, proxyiub, proxyko, proxynw, proxysb, proxyse
 
-# Updated per ralight 2024-10-30
-Title McGraw-Hill Medical (updated 20241027)
+# Updated per ralight 2026-03-04
+Title McGraw-Hill Medical (updated 20260226)
 HTTPHeader -request -process X-Requested-With
 URL https://www.mhmedical.com/
 HJ access.mhmedical.com
@@ -31,6 +31,7 @@ HJ csm.mhmedical.com
 HJ dermatology.mhmedical.com
 HJ fadavispt.mhmedical.com
 HJ harrisonmedicina.mhmedical.com
+HJ harrisonsitalia.mhmedical.com
 HJ hemonc.mhmedical.com
 HJ https://access.mhmedical.com
 HJ https://accessanesthesiology.mhmedical.com
@@ -50,6 +51,7 @@ HJ https://csm.mhmedical.com
 HJ https://dermatology.mhmedical.com
 HJ https://fadavisat.mhmedical.com
 HJ https://harrisonmedicina.mhmedical.com
+HJ https://harrisonsitalia.mhmedical.com
 HJ https://hemonc.mhmedical.com
 HJ https://jamaevidence.mhmedical.com
 HJ https://mhmedical.com
@@ -67,6 +69,7 @@ HJ https://www.accesssurgery.mhmedical.com
 HJ https://www.clinicalaccess.mhmedical.com
 HJ https://www.fadavispt.mhmedical.com
 HJ https://www.harrisonmedicina.mhmedical.com
+HJ https://www.harrisonsitalia.mhmedical.com
 HJ https://www.jamaevidence.mhmedical.com
 HJ https://www.neurology.mhmedical.com
 HJ https://www.obgyn.mhmedical.com
@@ -100,6 +103,7 @@ HJ www.accesssurgery.mhmedical.com
 HJ www.clinicalaccess.mhmedical.com
 HJ www.fadavispt.mhmedical.com
 HJ www.harrisonmedicina.mhmedical.com
+HJ www.harrisonsitalia.mhmedical.com
 HJ www.jamaevidence.com
 HJ www.jamaevidence.mhmedical.com
 HJ www.mhmedical.com
