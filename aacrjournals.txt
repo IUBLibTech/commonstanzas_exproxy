@@ -6,8 +6,9 @@
 
 
 # Moved to requireauthentication because IPv6 not supported (per ralight 2025-02-12)
-Title American Association for Cancer Research
-URL http://www.aacrjournals.org/
+# Updated per ralight 2026-03-04
+Title American Association for Cancer Research (updated 20260302)
+URL https://www.aacrjournals.org/
 HJ aacrjournals.org
 HJ cancerdiscovery.aacrjournals.org
 HJ cancerimmunolres.aacrjournals.org
@@ -30,6 +31,7 @@ HJ https://cebp.aacrjournals.org
 HJ https://clincancerres.aacrjournals.org
 HJ https://mcr.aacrjournals.org
 HJ https://mct.aacrjournals.org
+HJ https://www.aacrjournals.org
 HJ intl-preventionportal.aacrjournals.org
 HJ mcr.aacrjournals.org
 HJ mct.aacrjournals.org
