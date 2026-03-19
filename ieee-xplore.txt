@@ -1,5 +1,5 @@
 # INCLUDEFILE ../common_stanzas/ieee-xplore.txt
-Common_stanza used by: proxyiub, proxyko, proxysb
+# Common_stanza used by: proxyiub, proxyko, proxysb
 
 # Updated per ralight 2026-03-19
 Option X-Forwarded-For
