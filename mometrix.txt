@@ -1,0 +1,10 @@
+# INCLUDEFILE ../common_stanzas/mometrix.txt
+# Common_stanza used by: proxyiub, proxyse
+
+# Updated per ralight 2026-04-13
+Title Mometrix eLibrary 
+URL https://portal.mometrixelibrary.com
+HJ https://portal.mometrixelibrary.com
+HJ https://users.mometrixelibrary.com
+DJ mometrixelibrary.com
+NeverProxy cdnjs.cloudflare.com
