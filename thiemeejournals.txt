@@ -2,7 +2,7 @@
 
 # Common_stanza used by: proxyiub, proxysb
 
-# Updated per ralight 2025-09-10
+# Updated per ralight 2026-04-16
 HTTPMethod PUT
 HTTPMethod OPTIONS
 HTTPMethod DELETE
@@ -19,12 +19,13 @@ AnonymousURL +https://examenonline-service.thieme.de/baseparameter/*
 AnonymousURL +https://examenonline-service.thieme.de/sitzung/campus
 AnonymousURL +https://viamedici.thieme.de/api/e-module/examen-online/*
 AnonymousURL +https://authentication-service.thieme.de/*
-Title Thieme (updated 20250903)
+Title Thieme (updated 20260403)
 HTTPHeader -request -process v
 HTTPHeader -request -process erights
 HTTPHeader -request -process X-CSRF-TOKEN
 HTTPHeader -request -process X-Token
 HTTPHeader -request -process pool
+HTTPHeader -request -process x-cxn-api-signature
 URL https://www.thieme-connect.com/products/all/home.html
 HJ https://www.thieme-connect.com
 HJ https://www.thieme-connect.de
