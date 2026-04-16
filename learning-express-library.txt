@@ -1,0 +1,14 @@
+# INCLUDEFILE ../common_stanzas/learning-express-library.txt
+# Common_stanza used by: proxyeast, proxyiub, proxyko, proxynw, proxysb, proxyse
+
+# Updated per ralight 2023-10-16
+# Stanza modified from OCLC stanza
+Option Cookie
+Title Learning Express Library 3.0 - PrepStep for Colleges
+URL https://learningexpresslibrary3.com/?AuthToken=2df0be07-7488-499e-9b4f-ae3d2aab2262
+HJ http://learningexpresslibrary3.com
+HJ https://www.learningexpresshub.com/
+HJ https://www.learningexpresslibrary3.com
+HJ www.learningexpresslibrary3.com
+DJ learningexpresslibrary3.com
+DJ learningexpresshub.com
