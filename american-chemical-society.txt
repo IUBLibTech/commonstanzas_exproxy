@@ -1,0 +1,31 @@
+# INCLUDEFILE ../common_stanzas/american-chemical-society.txt
+# Common_stanza used by: proxyeast, proxyiub, proxyko, proxynw, proxysb, proxyse
+
+# Updated per RAL 2020-03-31
+Option DomainCookieOnly
+Title American Chemical Society
+URL http://pubs.acs.org
+HJ acs.org
+HJ cenglobal.acs.org
+HJ https://cenglobal.acs.org
+HJ https://pubs.acs.org
+HJ pubs.acs.org
+HJ www.acs.org
+HJ www.chemistry.org
+HJ www.pubs.acs.org
+HJ https://cdn-pubs.acs.org
+# Extra hosts added to reduce needhost errors
+HJ https://cendigitalmagazine.acs.org
+HJ https://accounts.cas.org
+HJ https://access.acspubs.org
+HJ http://acsparagonplus.acs.org
+HJ https://acsparagonplus.acs.org
+HJ acsparagonplus.acs.org
+DJ acs.org
+Find hostdev="pubsdev.acs.org"
+Replace hostdev="^ppubsdev.acs.org^"
+Find hosttest="pubstest.acs.org"
+Replace hosttest="^ppubstest.acs.org^"
+Find hostprod="pubs.acs.org"
+Replace hostprod="^ppubs.acs.org^"
+Option Cookie
