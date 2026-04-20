@@ -2,7 +2,7 @@
 # INCLUDEFILE ../common_stanzas/newspaperarchive.txt
 
 # Updated per ralight 2026-04-20
-Title Access Newspaper Archive
+Title NewspaperARCHIVE
 URL https://access.newspaperarchive.com
 HJ http://access.newspaperarchive.com
 HJ access.newspaperarchive.com
