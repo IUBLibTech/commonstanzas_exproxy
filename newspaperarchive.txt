@@ -1,0 +1,11 @@
+# Common_stanza used by: proxyiub, proxyiublaw
+# INCLUDEFILE ../common_stanzas/newspaperarchive.txt
+
+# Updated per ralight 2026-04-20
+Title Access Newspaper Archive
+URL https://access.newspaperarchive.com
+HJ http://access.newspaperarchive.com
+HJ access.newspaperarchive.com
+HJ newspaperarchive.com
+HJ https://newspaperarchive.com
+DJ access.newspaperarchive.com
