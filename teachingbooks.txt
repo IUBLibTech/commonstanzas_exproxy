@@ -1,0 +1,14 @@
+# INCLUDEFILE ../common_stanzas/teachingbooks.txt
+# Common_stanza used by: proxyeast, proxyiub, proxyko, proxynw, proxysb, proxyse
+
+# Updated per ralight 2026-04-30
+# Gratis access via INSPIRE 2026 agreement
+Title TeachingBooks
+URL https://www.teachingbooks.net/
+HJ https://library.TeachingBooks.net
+HJ https://school.teachingbooks.net
+HJ library.TeachingBooks.net
+HJ school.teachingbooks.net
+HJ www.teachingbooks.net
+HJ teachingbooks.net
+DJ teachingbooks.net
