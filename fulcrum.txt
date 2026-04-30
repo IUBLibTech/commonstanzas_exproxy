@@ -1,0 +1,13 @@
+# INCLUDEFILE ../common_stanzas/fulcrum.txt
+# Common_stanza used by: proxyeast, proxyiub, proxyko, proxynw, proxysb, proxyse
+
+# Updated per ralight 2026-04-30
+Title Fulcrum (updated 20180731)
+URL https://www.fulcrum.org
+HJ hdl.handle.net
+HJ https://hdl.handle.net
+HJ www.fulcrum.org
+HJ https://www.fulcrum.org
+HJ fulcrum.org
+HJ https://fulcrum.org
+DJ fulcrum.org 
