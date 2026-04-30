@@ -32,3 +32,9 @@ Host https://scholar.google.be
 Host scholar.google.be
 Host https://scholar.google.it
 Host scholar.google.it
+# Extra host lines added by ralight to reduce needhost errors 2024-01-28
+Host https://scholar.google.com.tw
+Host scholar.google.com.tw
+# Extra host lines added by ralight to reduce needhost errors 2024-02-13
+Host https://scholar.google.es
+Host scholar.google.es
