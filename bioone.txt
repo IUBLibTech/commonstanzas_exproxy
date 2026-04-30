@@ -1,0 +1,11 @@
+# INCLUDEFILE ../common_stanzas/bioone.txt
+# Common_stanza used by: proxyeast, proxyiub, proxyko, proxynw, proxyse
+
+# Updated per ralight 2026-04-30
+Title BioOne Complete (updated 20200923)
+URL https://www.bioone.org/
+HJ http://www.bioone.org
+HJ https://bioone.org
+HJ http://bioone.org
+HJ www.bioone.org
+DJ bioone.org
