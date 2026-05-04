@@ -1,0 +1,23 @@
+# INCLUDEFILE ../common_stanzas/candid.txt
+# This INCLUDEFILE line must appear in the always authenicate section of the config.txt or in the campuses requireauthentication.txt
+
+# Common_stanza used by: proxyeast, proxyiub, proxyko, proxynw, proxysb, proxyse
+
+# Added per ralight 2026-05-04
+# New combined platform for Foundation Directory Online and Guidestar
+Title Candid
+URL https://app.candid.org/ipl
+HTTPHeader -request -origin
+HTTPHeader -request -referer
+HTTPHeader -request -x-requested-with
+HTTPHeader -request -authorization
+HTTPHeader -request -content-type
+HTTPHeader -request -accept
+HTTPHeader -request -process JWT
+HJ app.candid.org
+HJ candid.org
+NeverProxy docs.candid.org
+DJ candid.org
+Domain candid.org
+Find "https://app.candid.org"
+Replace "^phttps://app.candid.org^"
