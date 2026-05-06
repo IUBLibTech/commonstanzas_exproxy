@@ -3,7 +3,7 @@
 
 # Common_stanza used by: proxyeast, proxyiub, proxyko, proxynw, proxysb, proxyse
 
-# Added per ralight 2026-05-04
+# Updated per ralight 2026-05-04
 # New combined platform for Foundation Directory Online and Guidestar
 Title Candid
 URL https://app.candid.org/ipl
@@ -19,5 +19,3 @@ HJ candid.org
 NeverProxy docs.candid.org
 DJ candid.org
 Domain candid.org
-Find "https://app.candid.org"
-Replace "^phttps://app.candid.org^"
