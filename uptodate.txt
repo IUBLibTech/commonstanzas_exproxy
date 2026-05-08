@@ -1,0 +1,19 @@
+# INCLUDEFILE ../common_stanzas/uptodate.txt
+# Common_stanza used by: proxyeast, proxyiub, proxyko, proxynw, proxyse
+
+# This INCLUDEFILE line must appear in the the campuses' requireauthentication.txt
+
+# Updated per RAL 2021-01-26
+Title UpToDate
+URL https://www.uptodate.com/contents/search
+HJ http://www.uptodate.com
+HJ https://uptodate.com
+HJ http://uptodate.com
+HJ https://www.uptodateonline.com
+HJ uptodate.com
+HJ uptodateonline.com
+HJ utdol.com
+HJ www.uptodate.com
+HJ www.uptodateonline.com
+HJ www.utdol.com
+DJ uptodate.com
