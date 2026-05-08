@@ -1,0 +1,13 @@
+# INCLUDEFILE ../common_stanzas/aapg-datapages.txt
+# Common_stanza used by: proxyeast, proxyiub, proxyko, proxynw, proxysb, proxyse
+
+# Updated per ralight 2026-05-08
+Title AAPG Datapages
+URL https://archives.datapages.com/
+HJ http://archives.datapages.com/
+HJ search.datapages.com
+HJ www.aapg.org
+HJ www.searchanddiscovery.com
+DJ datapages.com
+DJ aapg.org
+DJ searchanddiscovery.com
