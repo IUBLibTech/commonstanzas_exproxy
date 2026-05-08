@@ -1,0 +1,16 @@
+# INCLUDEFILE ../common_stanzas/wiley-digital-archive.txt
+# Common_stanza used by: proxyeast, proxyiub, proxyko, proxynw, proxysb, proxyse
+
+# Updated per ralight 2026-05-08
+AnonymousURL +https://api.wileydigitalarchives.com/*
+Title Wiley Digital Archives
+URL https://app.wileydigitalarchives.com/
+HJ https://app.wileydigitalarchives.com
+HJ https://api.wileydigitalarchives.com
+NeverProxy content.wileydigitalarchives.com
+NeverProxy ajax.googleapis.com
+NeverProxy fonts.googleapis.com
+NeverProxy fonts.gstatic.com
+NeverProxy js.zapjs.com
+NeverProxy maxcdn.bootstrapcdn.com
+AnonymousURL -*
