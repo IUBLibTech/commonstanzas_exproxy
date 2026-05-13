@@ -1,0 +1,13 @@
+# INCLUDEFILE ../common_stanzas/worldcat-org.txt
+# Common_stanza used by: proxyeast, proxyiub, proxyse
+
+# Worldcat.org stanza should be listed above WorldCat Discovery stanza
+Cookie ezproxy_s=1; domain=.worldcat.org
+T OCLC WorldCat.org (Updated 20231114)
+U https://search.worldcat.org
+HJ https://search.worldcat.org
+HJ https://www.worldcat.org
+HJ https://worldcat.org
+HJ www.worldcat.org
+HJ search.worldcat.org
+DJ worldcat.org
