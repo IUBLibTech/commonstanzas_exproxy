@@ -1,0 +1,14 @@
+# INCLUDEFILE ../common_stanzas/swank-digital-campus.txt
+# Common_stanza used by: proxyeast, proxyiub, proxyko, proxynw, proxysb, proxyse
+
+# Moved to common stanza per ralight 2026-05-13
+# Neverproxy lines added per Swank support. Does not match OCLC stanza
+Title Swank Digital Campus
+URL https://digitalcampus.swankmp.net
+H digitalcampus.swankmp.net
+H https://permalinks.swankmp.net
+D swankmp.net
+NeverProxy wvlsmod.swankmp.net
+NeverProxy dc.swankmp.net
+NeverProxy fairplay.swankmp.net
+NeverProxy cdn.swankidc.com
