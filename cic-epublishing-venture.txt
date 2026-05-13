@@ -3,11 +3,12 @@
 
 # Moved to common stanza per ralight 2026-05-13
 # This is a legacy collection of the BTAA, formerly called the CIC
-T CIC E-publishing Venture
-U http://name.umdl.umich.edu
-DJ ets.umdl.umich.edu
-DJ umdl.umich.edu
-DJ hti.umich.edu
-H umdl.umich.edu
-H hti.umich.edu
-H ets.umdl.umich.edu
+Title CIC E-Publishing Venture
+URL http://name.umdl.umich.edu
+HJ https://name.umdl.umich.edu
+HJ name.umdl.umich.edu
+HJ https://quod.lib.umich.edu/
+HJ http://quod.lib.umich.edu/
+HJ quod.lib.umich.edu/
+HJ https://hdl.handle.net
+HJ https://hdl.lib.umich.edu
