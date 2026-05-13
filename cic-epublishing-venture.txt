@@ -1,0 +1,13 @@
+# INCLUDEFILE ../common_stanzas/cic-epublishing-venture.txt
+# Common_stanza used by: proxyeast, proxyiub, proxyko, proxynw, proxysb, proxyse
+
+# Moved to common stanza per ralight 2026-05-13
+# This is a legacy collection of the BTAA, formerly called the CIC
+T CIC E-publishing Venture
+U http://name.umdl.umich.edu
+DJ ets.umdl.umich.edu
+DJ umdl.umich.edu
+DJ hti.umich.edu
+H umdl.umich.edu
+H hti.umich.edu
+H ets.umdl.umich.edu
