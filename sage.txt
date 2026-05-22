@@ -1,8 +1,8 @@
 # INCLUDEFILE ../common_stanzas/sage.txt
 # Common_stanza used by: proxyiub, proxyiublaw, proxyeast, proxyko, proxynw, proxysb, proxyse
 
-# Updated per ralight 2025-12-10
-Title Sage Journals (updated 20251209)
+# Updated per ralight 2026-05-22
+Title Sage Journals (updated 20260515)
 HTTPHeader -request -process X-Requested-With
 HTTPHeader -request -process __RequestVerificationToken
 HTTPHeader -request -process X-XSRF-Token
@@ -28,8 +28,8 @@ HJ www.physiology.org
 HJ www.sagepub.co.uk
 HJ www.sagepub.com
 HJ campus.sagepub.com
-HJ https://cqpcollections.sagepub.com
-HJ cqpcollections.sagepub.com
+HJ https://cqpresscollections.sagepub.com
+HJ cqpresscollections.sagepub.com
 HJ cqpress.sagepub.com
 HJ https://cqpress.sagepub.com
 HJ https://campus.sagepub.com
