@@ -1,0 +1,11 @@
+# INCLUDEFILE ../common_stanzas/europa-world-plus.txt
+# Common_stanza used by: proxyiub, proxyko
+
+# Updated per ralight 2026-06-05
+# HTTPheader localized
+Title Europa World Plus
+HTTPHeader -request -process Access-Token
+URL https://www.europaworld.com/
+HJ http://www.europaworld.com
+HJ www.europaworld.com
+DJ europaworld.com
