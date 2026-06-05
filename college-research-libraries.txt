@@ -1,0 +1,18 @@
+# INCLUDEFILE ../common_stanzas/college-research-libraries.txt
+# Common_stanza used by: proxyiub, proxyko
+
+# Updated per ralight 2026-06-05
+Title College and Research Libraries
+URL http://crl.acrl.org
+HJ https://crl.acrl.org
+HJ http://crln.acrl.org
+HJ https://crln.acrl.org
+HJ http://www.crl.edu
+HJ https://www.crl.edu
+HJ https://dds.crl.edu
+HJ crln.acrl.org
+HJ crl.acrl.org
+HJ www.crl.edu
+HJ dds.crl.edu
+DJ acrl.org
+DJ crl.edu
