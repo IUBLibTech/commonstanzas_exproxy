@@ -1,0 +1,16 @@
+# INCLUDEFILE ../common_stanzas/ala-journals.txt
+# Common_stanza used by: proxyiub, proxyko
+
+# Updated per ralight 2026-06-05
+# Modified from OCLC stanza to include https
+Title ALA Journals (updated 20210511)
+URL https://journals.ala.org/
+HJ http://journals.ala.org/
+HJ journals.ala.org
+# Extra host added for LLAMA (IUB)
+HJ https://www.llama.ala.org
+Extra hosts added for Instruction newsletters (IUK)
+HJ http://www.ala.org
+HJ https://www.ala.org
+HJ www.ala.org
+DJ ala.org
