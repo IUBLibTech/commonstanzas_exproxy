@@ -1,8 +1,8 @@
-# Common_stanza used by: proxyiub, proxynw
 # INCLUDEFILE ../common_stanzas/american-national-biography.txt
+# Common_stanza used by: proxyiub, proxynw
 
-# Updated per ralight 2026-06-04
-Title American National Biography Online (updated 20260604)
+# Updated per ralight 2026-06-12
+Title American National Biography Online (updated 20260610)
 HTTPHeader -request -inject x-proxy-server (server:url:http =~ "@^http://([^:]+)@", re:1)
 URL https://www.anb.org
 HJ https://www.anb.org
