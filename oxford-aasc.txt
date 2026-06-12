@@ -1,8 +1,9 @@
-# Common_stanza used by: proxyiub, proxysb
 # INCLUDEFILE ../common_stanzas/oxford-aasc.txt
+# Common_stanza used by: proxyiub, proxysb
 
-# Updated per ralight 2025-12-17
-Title Oxford African American Studies Center (updated 20251211)
+
+# Updated per ralight 2026-06-12
+Title Oxford African American Studies Center (updated 20260608)
 HTTPHeader -request -inject x-proxy-server (server:url:http =~ "@^http://([^:]+)@", re:1)
 HTTPHeader -request -process X-Requested-With
 URL https://www.oxfordaasc.com/
@@ -10,7 +11,28 @@ HJ https://www.oxfordaasc.com/
 HJ https://oxfordaasc.com
 HJ oxfordaasc.com
 HJ www.oxfordaasc.com
+HJ https://www.googletagmanager.com
+HJ googletagmanager.com
 DJ oxfordaasc.com
+DJ googletagmanager.com
+Find www.googletagmanager.com
+Replace ^Swww.googletagmanager.com^
+Find https://cdn-ukwest.onetrust.com
+Replace https://^Scdn-ukwest.onetrust.com^
+Find https://privacyportal-uk.onetrust.com
+Replace https://^Sprivacyportal-uk.onetrust.com^
+Find "https://privacyportal-uk.onetrust.com"
+Replace "https://^Sprivacyportal-uk.onetrust.com^"
+Find https://geolocation.onetrust.com
+Replace https://^Sgeolocation.onetrust.com^
+Find https://cdn.cookielaw.org
+Replace https://^Scdn.cookielaw.org^
+Find "https://cdn-ukwest.onetrust.com"
+Replace "https://^Scdn-ukwest.onetrust.com^"
+Find https:\/\/cdn-ukwest.onetrust.com
+Replace https:\/\/^Scdn-ukwest.onetrust.com^
+Find https:\/\/privacyportal-uk.onetrust.com
+Replace https:\/\/^Sprivacyportal-uk.onetrust.com^
 NeverProxy oup-idp.sams-sigma.com
 NeverProxy oup2-idp.sams-sigma.com
 NeverProxy oup3-idp.sams-sigma.com
