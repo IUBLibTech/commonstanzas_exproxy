@@ -2,8 +2,8 @@
 # Common_stanza used by: proxyeast, proxyiub, proxyiublaw, proxyko, proxynw, proxysb, proxyse
 
 
-# Updated per ralight 2026-06-05
-Title Oxford Reference (updated 20260528)
+# Updated per ralight 2026-06-12
+Title Oxford Reference (updated 20260608)
 HTTPHeader -request -inject x-proxy-server (server:url:http =~ "@^http://([^:]+)@", re:1)
 URL https://www.oxfordreference.com
 HJ https://www.oxfordreference.com
