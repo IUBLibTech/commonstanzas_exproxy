@@ -4,6 +4,7 @@
 
 # Updated per ralight 2024-10-16
 Title BREPOLiS (updated 20241011)
+NeverRewrite X-MicrosoftAjax: Delta=true
 URL http://apps.brepolis.net/LTool/Entrance.aspx?w=1
 HJ about.brepolis.net
 HJ brepolis.net
