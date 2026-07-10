@@ -1,0 +1,9 @@
+# INCLUDEFILE ../common_stanzas/loex-quarterly.txt
+# Common_stanza used by: proxyiub, proxyko, proxysb
+
+# Updated per ralight 2026-07-10
+Title Loex Quarterly
+URL https://commons.emich.edu/loexquarterly/
+HJ http://commons.emich.edu/loexquarterly
+HJ commons.emich.edu
+DJ emich.edu
