@@ -1,0 +1,10 @@
+# INCLUDEFILE ../common_stanzas/r2-digital-library.txt
+# Common_stanza used by: proxyiub, proxyko, proxysb
+
+# Updated per ralight 2026-07-10
+T R2 Digital Library (updated 20220530)
+U https://www.r2library.com
+HJ https://r2library.com
+HJ www.r2library.com 
+HJ r2library.com 
+DJ r2library.com
