@@ -1,0 +1,9 @@
+# INCLUDEFILE ../common_stanzas/homeland-security-digital-library.txt
+# Common_stanza used by: proxyiub, proxyko
+
+# Updated per ralight 2026-07-10
+Title Homeland Security Digital Library (HSDL)
+URL https://www.hsdl.org
+HJ http://www.hsdl.org
+HJ www.hsdl.org
+DJ hsdl.org
