@@ -1,0 +1,18 @@
+# INCLUDEFILE ../common_stanzas/taylor-francis-online.txt
+# Common_stanza used by: proxyiub, proxyko, proxynw, proxysb, proxyse
+
+# Updated per ralight 2026-07-17
+ProxyHostnameEdit www.tandfonline.com$ www-tandfonline-com
+Title Taylor & Francis (updated 20190318)
+HTTPHeader -request -process Access-Token
+URL https://www.tandfonline.com
+HJ http://www.tandfonline.com
+HJ journalsonline.tandf.co.uk
+HJ afs.tandfonline.com
+HJ amstat.tandfonline.com
+HJ tandfonline.com
+HJ www.journalsonline.tandf.co.uk
+DJ tandfonline.com
+HJ tandfprod.literatumonline.com
+HJ https://tandfonline.com
+DJ literatumonline.com
