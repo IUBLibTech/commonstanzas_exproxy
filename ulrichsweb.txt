@@ -1,0 +1,20 @@
+INCLUDEFILE ../common_stanzas/ulrichsweb.txt
+Common_stanza used by: proxyiub, proxyko, proxynw, proxysb
+
+# Updated per ralight 2026-07-17
+Title Ulrichsweb
+URL https://ulrichsweb.serialssolutions.com/
+HJ ulrichsweb.serialssolutions.com
+HJ https://ulrichsweb.serialssolutions.com
+HJ www.ulrichsweb.serialssolutions.com
+DJ serialssolutions.com
+HJ ulrichsweb.serialssolutions.com
+HJ www.ulrichsweb.serialssolutions.com
+HJ https://clientcenter.serialssolutions.com
+HJ clientcenter.serialssolutions.com
+HJ www.serialssolutions.com
+HJ serialssolutions.com
+DJ serialssolutions.com
+HJ www.ulrichsweb.com
+HJ ulrichsweb.com
+DJ ulrichsweb.com
