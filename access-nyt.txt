@@ -1,0 +1,10 @@
+INCLUDEFILE ../common_stanzas/access-nyt.txt
+- Common_stanza used by: proxyiub, proxyko, proxysb, proxyse
+
+# Updated per ralight 2026-07-17
+# Do not use OCLC stanza called "New York Times"
+Title Access NYT (OCLC IncludeFile updated 20220805)
+URL https://ezmyaccount.nytimes.com/grouppass/redir
+H http://ezmyaccount.nytimes.com
+H ezmyaccount.nytimes.com
+D ezmyaccount.nytimes.com
