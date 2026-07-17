@@ -1,0 +1,11 @@
+# INCLUDEFILE ../common_stanzas/skillport8i.txt
+# Common_stanza used by: proxyiub, proxyko, proxynw, proxyse
+
+# Updated per ralight 2026-07-17
+# Stanza used to improve IUCAT experience
+Title Skillport8i
+NeverProxy library.books24x7.com
+NeverProxy http://library.books24x7.com
+NeverProxy iu.skillport.com
+NeverProxy https://iu.skillport.com
+NeverProxy https://skillport.iu.edu
