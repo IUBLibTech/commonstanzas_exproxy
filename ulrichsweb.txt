@@ -1,5 +1,5 @@
-INCLUDEFILE ../common_stanzas/ulrichsweb.txt
-Common_stanza used by: proxyiub, proxyko, proxynw, proxysb
+# INCLUDEFILE ../common_stanzas/ulrichsweb.txt
+# Common_stanza used by: proxyiub, proxyko, proxynw, proxysb
 
 # Updated per ralight 2026-07-17
 Title Ulrichsweb
