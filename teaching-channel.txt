@@ -1,0 +1,10 @@
+# INCLUDEFILE ../common_stanzas/teaching-channel.txt
+# Common_stanza used by: proxyko, proxynw
+
+# Updated per ralight 2026-07-17
+Option NoX-Forwarded-For 
+Title Teaching Channel 
+URL https://platform.teachingchannel.com/TeachingChannel
+HJ  https://learn.teachingchannel.com 
+DJ teachingchannel.com
+Option X-Forwarded-For
