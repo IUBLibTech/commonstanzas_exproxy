@@ -3,21 +3,20 @@
 
 # Common_stanza used by: proxyeast, proxyiub, proxyko, proxynw, proxysb, proxyse
 
-# Updated per ralight 2026-07-08
+# Updated per ralight 2026-07-10
 # New combined platform for Foundation Directory Online and Guidestar
-Title Candid
-URL https://app.candid.org/ipl
-HTTPHeader -request -origin
-HTTPHeader -request -referer
-HTTPHeader -request -x-requested-with
-HTTPHeader -request -authorization
-HTTPHeader -request -content-type
-HTTPHeader -request -accept
+Title Candid (updated 20260710)
+HTTPHeader -request -process origin
+HTTPHeader -request -process referer
+HTTPHeader -request -process x-requested-with
 HTTPHeader -request -process JWT
+HTTPHeader -request -process authorization
+HTTPHeader -request -process content-type
+HTTPHeader -request -process accept
+URL https://app.candid.org/ipl
+HJ https://app.candid.org
 HJ app.candid.org
+HJ https://candid.org
 HJ candid.org
-NeverProxy docs.candid.org
-# Neverproxy added per EZPROXY-L suggestion to fix footer loading issues
-NeverProxy cdn.candid.org
 DJ candid.org
-Domain candid.org
+NeverProxy docs.candid.org
