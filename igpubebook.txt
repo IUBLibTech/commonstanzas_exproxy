@@ -1,11 +1,11 @@
 # INCLUDEFILE ../common_stanzas/igpubebook.txt
-
 # Common_stanza used by: proxyiub, proxyse
 
-# Updated per ralight 2025-12-17
-Title IG Publishing eBook (updated 20251212)
+# Updated per ralight 2026-07-31
+Title IG Publishing eBook (updated 20260727)
 HTTPHeader -request -process X-Session-Id
 HTTPHeader -request -process X-Token
+HTTPHeader -request -process Authorization
 URL https://portal.igpublish.com/
 HJ https://portal.igpublish.com
 HJ portal.igpublish.com
@@ -19,3 +19,9 @@ NeverProxy 101.igpublish.com
 NeverProxy 101.igpublish.com:5000
 NeverProxy 81.igpublish.com
 NeverProxy 81.igpublish.com:5000
+NeverProxy reader.igpublish.com
+NeverProxy content-reader.igpublish.com
+NeverProxy api.reader.igpublish.com
+NeverProxy api.ai.igpublish.com
+NeverProxy agent.igpublish.com
+NeverProxy ai.igpublish.com
