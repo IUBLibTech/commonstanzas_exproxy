@@ -1,5 +1,6 @@
-# Common_stanza used by: proxyeast, proxyiub, proxyko, proxynw, proxysb, proxyse
 # INCLUDEFILE ../common_stanzas/wiley_online.txt
+# Common_stanza used by: proxyeast, proxyiub, proxyko, proxynw, proxysb, proxyse
+
 
 # Updated per ralight 2026-07-31
 AnonymousURL +https://*.onlinelibrary.wiley.com/action/*
