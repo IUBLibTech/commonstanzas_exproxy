@@ -1,7 +1,7 @@
 # Common_stanza used by: proxyeast, proxyiub, proxyko, proxynw, proxysb, proxyse
 # INCLUDEFILE ../common_stanzas/wiley_online.txt
 
-# Updated per ralight 2026-01-29
+# Updated per ralight 2026-07-31
 AnonymousURL +https://*.onlinelibrary.wiley.com/action/*
 Option DomainCookieOnly
 Option X-Forwarded-For
@@ -9,7 +9,7 @@ HTTPMethod OPTIONS
 HTTPMethod DELETE
 HTTPMethod PUT
 Cookie theproxy=ezproxy; domain=.onlinelibrary.wiley.com
-Title Wiley Online (updated 20260121)
+Title Wiley Online (updated 20260728)
 MimeFilter application/json .* javascript
 MimeFilter text/plain .* javascript
 HTTPHeader -request -process X-Requested-With
@@ -53,6 +53,7 @@ HJ ascpt.onlinelibrary.wiley.com
 HJ asi.onlinelibrary.wiley.com
 HJ asistdl.onlinelibrary.wiley.com
 HJ aslopubs.onlinelibrary.wiley.com
+HJ asme.onlinelibrary.wiley.com
 HJ asmepublications.onlinelibrary.wiley.com
 HJ aspenjournals.onlinelibrary.wiley.com
 HJ associationofanaesthetists-publications.onlinelibrary.wiley.com
@@ -117,6 +118,7 @@ HJ https://ascpt.onlinelibrary.wiley.com
 HJ https://asi.onlinelibrary.wiley.com
 HJ https://asistdl.onlinelibrary.wiley.com
 HJ https://aslopubs.onlinelibrary.wiley.com
+HJ https://asme.onlinelibrary.wiley.com
 HJ https://asmepublications.onlinelibrary.wiley.com
 HJ https://aspenjournals.onlinelibrary.wiley.com
 HJ https://associationofanaesthetists-publications.onlinelibrary.wiley.com
@@ -162,6 +164,7 @@ HJ https://iubmb.onlinelibrary.wiley.com
 HJ https://jlb.onlinelibrary.wiley.com
 HJ https://londmathsoc.onlinelibrary.wiley.com
 HJ https://monkeypox.onlinelibrary.wiley.com
+HJ https://movementdisorders.onlinelibrary.wiley.com
 HJ https://mrw.interscience.wiley.com
 HJ https://myscp.onlinelibrary.wiley.com
 HJ https://nasenjournals.onlinelibrary.wiley.com
@@ -228,6 +231,7 @@ HJ it.iucr.org
 HJ iubmb.onlinelibrary.wiley.com
 HJ londmathsoc.onlinelibrary.wiley.com
 HJ monkeypox.onlinelibrary.wiley.com
+HJ movementdisorders.onlinelibrary.wiley.com
 HJ mrw.interscience.wiley.com
 HJ myscp.onlinelibrary.wiley.com
 HJ nasenjournals.onlinelibrary.wiley.com
