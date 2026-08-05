@@ -2,8 +2,11 @@
 
 # Common_stanza used by: proxyiub, proxyko
 
-# Updated per ralight 2024-10-16
+# Updated per ralight 2026-08-05
+# HTTPHeader lines added per Brepolis support. Does not match OCLC stanzas (ralight 2026-08-05)
 Title BREPOLiS (updated 20241011)
+HTTPHeader -request -process X-MicrosoftAjax
+HTTPHeader -request -process X-Requested-With
 NeverRewrite X-MicrosoftAjax: Delta=true
 URL http://apps.brepolis.net/LTool/Entrance.aspx?w=1
 HJ about.brepolis.net
