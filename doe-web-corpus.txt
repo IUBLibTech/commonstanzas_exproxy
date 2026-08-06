@@ -1,0 +1,19 @@
+# INCLUDEFILE ../common_stanzas/doe-web-corpus.txt
+# Common_stanza used by: proxyiub, proxynw
+
+# Last reviewed by ralight 2026-08-06
+# Updated per ralight 2024-12-09
+# Combined stanza for both Web Corpus and A-I DOE databases provided by Xin Xiang
+# Stanza modified to add Option NoX-Forwarded-For directive to resolve off campus access issues per Xin Xiang
+Option NoX-Forwarded-For
+T DOE Web Corpus
+HTTPHeader -request -process X-Requested-With
+U https://tapor.library.utoronto.ca/doecorpus/
+HJ https://tapor.library.utoronto.ca/doe/
+HJ https://dictionary.doe.utoronto.ca
+HJ dictionary.doe.utoronto.ca
+HJ https://corpus.doe.utoronto.ca
+HJ corpus.doe.utoronto.ca
+HJ tapor.library.utoronto.ca
+HJ library.utoronto.ca
+DJ utoronto.ca
