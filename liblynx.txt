@@ -1,0 +1,8 @@
+# INCLUDEFILE ../common_stanzas/liblynx.txt
+# Common_stanza used by: proxynw, proxysb
+
+# Updated per ralight 2026-08-06
+Title LibLynx (updated 20190624)
+URL https://connect.liblynx.com
+HJ connect.liblynx.com
+DJ liblynx.com 
