@@ -1,0 +1,13 @@
+# INCLUDEFILE ../common_stanzas/nctm.txt
+# Common_stanza used by: proxyiub, proxynw
+
+# Updated per ralight 2026-08-12
+T National Council of Teachers of Mathematics (OCLC IncludeFile updated 20230103)
+HTTPHeader -request -process X-Requested-With
+U https://www.nctm.org/
+HJ https://nctm.org
+HJ https://pubs.nctm.org
+HJ nctm.org
+HJ pubs.nctm.org
+HJ www.nctm.org
+DJ nctm.org
