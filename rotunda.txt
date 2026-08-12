@@ -1,0 +1,14 @@
+# INCLUDEFILE ../common_stanzas/rotunda.txt
+# Common_stanza used by: proxyiub, proxynw
+
+# Updated per ralight 2026-08-12
+Title University of Virginia Press - Rotunda (updated 20201119)
+URL https://rotunda.upress.virginia.edu
+HJ http://rotunda.upress.virginia.edu
+HJ https://digitaltemple.rotunda.upress.virginia.edu
+HJ http://digitaltemple.rotunda.upress.virginia.edu
+HJ https://pfe.rotunda.upress.virginia.edu
+HJ http://pfe.rotunda.upress.virginia.edu
+H https://prde.upress.virginia.edu
+H http://prde.upress.virginia.edu
+DJ upress.virginia.edu
