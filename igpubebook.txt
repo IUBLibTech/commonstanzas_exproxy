@@ -25,3 +25,5 @@ NeverProxy api.reader.igpublish.com
 NeverProxy api.ai.igpublish.com
 NeverProxy agent.igpublish.com
 NeverProxy ai.igpublish.com
+# HJ added to reduce needhost errors per ralight 2026-08-19
+HJ a.cloud.igpublish.com
