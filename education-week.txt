@@ -1,0 +1,11 @@
+# INCLUDEFILE ../common_stanzas/education-week.txt
+# This INCLUDEFILE line must appear in the always authenicate section of the config.txt or in the campuses requireauthentication.txt
+
+# Common_stanza used by: proxyiub, proxynw
+
+# Updated per ralight 2026-08-28
+Title Education Week (OCLC IncludeFile updated 20230615)
+URL https://www.edweek.org/
+HJ www.edweek.org
+DJ edweek.org
+DJ pelcro.com
