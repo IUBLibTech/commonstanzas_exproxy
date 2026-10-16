@@ -1,0 +1,11 @@
+# INCLUDEFILE ../common_stanzas/project-euclid.txt
+# Common_stanza used by: proxyiub, proxysb
+
+# Last reviewed by ralight 2026-10-16
+Title Project Euclid (updated 20170728)
+URL https://projecteuclid.org/
+HJ projecteuclid.org
+HJ www.projecteuclid.org
+HJ https://projecteuclid.org
+HJ https://www.projecteuclid.org
+DJ projecteuclid.org
