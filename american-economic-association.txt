@@ -1,0 +1,13 @@
+# INCLUDEFILE ../common_stanzas/american-economic-association.txt
+# Common_stanza used by: proxyiub, proxysb
+
+# Updated per ralight 2026-10-16
+Title American Economic Association (updated 20200110)
+HTTPHeader -request -process X-CSRF-Token
+HTTPHeader -request -process X-Key
+HTTPHeader -request -process X-Requested-With
+URL https://www.aeaweb.org/
+HJ aeaweb.org
+HJ pubs.aeaweb.org
+HJ www.aeaweb.org
+DJ aeaweb.org
