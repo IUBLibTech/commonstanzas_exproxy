@@ -1,0 +1,10 @@
+# INCLUDEFILE ../common_stanzas/film-platform.txt
+# Common_stanza used by: proxyiub, proxysb
+
+# Last reviewed by ralight 2026-10-16
+Title Film Platform
+URL https://filmplatform.net
+Host filmplatform.net
+Host https://www.filmplatform.net
+Host www.filmplatform.net
+DJ filmplatform.net
