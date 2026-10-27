@@ -1,12 +1,12 @@
 # INCLUDEFILE ../common_stanzas/bmj.txt
 # Common_stanza used by: proxyiub, proxyeast, proxyko, proxynw, proxyse
 
-# Updated per ralight 2026-06-12
-Option CookiePassThrough
-Title BMJ (Updated 20260611)
+# Updated per ralight 2026-10-27
+Title BMJ (Updated 20261019)
 ByteServe https://bjsm\.bmj\.com/.*
 ByteServe https://bmjopensem\.bmj\.com/.*
 ByteServe https://bmjpaedsopen\.bmj\.com/.*
+ByteServe https://emj\.bmj\.com/.*
 ByteServe https://rmdopen\.bmj\.com/.*
 URL https://journals.bmj.com
 HJ adc.bmj.com
@@ -199,4 +199,3 @@ HJ www.jnnp.com
 Domain group.bmj.com
 DJ bmj.com
 Option Cookie
-
