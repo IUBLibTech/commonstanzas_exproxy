@@ -4,11 +4,11 @@
 # Common_stanza used by: proxyeast, proxyiub, proxyko, proxynw, proxysb, proxyse
 
 
-# Update per ralight 2026-06-12
+# Update per ralight 2026-10-27
 Option CookiePassThrough
 AnonymousURL -OPTIONS +https://*.quartexcollections.com*
 AnonymousURL +https://frontend-api.quartexcollections.com/*
-Title Adam Matthew Digital - New Stanza (updated 20260611)
+Title Adam Matthew Digital - New Stanza (updated 20261016)
 HTTPHeader -request -process quartex-additionalauth
 HTTPHeader -response -block Content-Security-Policy
 URL http://www.login.amdigital.co.uk
@@ -24,6 +24,7 @@ HJ https://www.aac.amdigital.co.uk
 HJ https://www.aap.amdigital.co.uk
 HJ https://www.africaandthenewimperialism.amdigital.co.uk
 HJ https://www.africanamericancommunities.amdigital.co.uk
+HJ https://www.africanamericanwomenshistories.amdigital.co.uk
 HJ https://www.aihc.amdigital.co.uk
 HJ https://www.am-explorer.com
 HJ https://www.amdigital.co.uk
