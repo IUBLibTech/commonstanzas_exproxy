@@ -1,6 +1,8 @@
 # INCLUDEFILE ../common_stanzas/oxford-music-online.txt
 # Common_stanza used by: proxyeast, proxyiub, proxyko, proxysb, proxyse
 
+# This INCLUDEFILE line must appear in the always authenicate section of the config.txt or in the campuses requireauthentication.txt
+
 
 # Updated per ralight 2026-06-12
 Title Oxford Music Online (updated 20260608)
