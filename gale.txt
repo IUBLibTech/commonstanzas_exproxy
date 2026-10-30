@@ -2,79 +2,51 @@
 # Common_stanza used by: proxyeast, proxyiub, proxyiublaw, proxyko, proxynw, proxysb, proxyse
 
 
-# Updated per ralight 2026-06-12
+# Updated per ralight 2026-10-30
+# Updated per recommendation from Gale, does not match OCLC stanza, specifically adds Option NoX-Forwarded-For before Title directive
+# Stanza source: https://support.gale.com/doc/ezproxy
 HTTPMethod OPTIONS
 AnonymousURL -Options +https://appapi.chiltonlibrary.com/*
 AnonymousURL +https://appapi.chiltonlibrary.com/*
-Title Gale Products (updated 20260610)
+Option NoX-Forwarded-For
+Title Gale Products (updated 20260605)
 HTTPHeader -request -process X-XSRF-TOKEN
 URL https://link.gale.com/apps/menu
+MimeFilter application/json .* javascript
 MimeFilter text/plain .* javascript
 HJ auth.go.gale.com
+HJ app.chiltonlibrary.com
+HJ appcontent.chiltonlibrary.com
 HJ bi.gale.com
 HJ chiltonlibrary.com
-HJ demographicsnow.gale.com
-HJ dnow.gale.com
 HJ find.gale.com
 HJ find.galegroup.com
 HJ galeapps.gale.com
-HJ galenet.gale.com
-HJ galenet.galegroup.com
 HJ galepages.com
+HJ galenet.gale.com
 HJ gdc.gale.com
-HJ gdc.galegroup.com
 HJ go.gale.com
-HJ go.galegroup.com
-HJ https://app.chiltonlibrary.com
-HJ https://appapi.chiltonlibrary.com
-HJ https://appcontent.chiltonlibrary.com
-HJ https://auth.go.gale.com
-HJ https://bi.gale.com
-HJ https://demographicsnow.gale.com
-HJ https://dnow.gale.com
-HJ https://find.gale.com
-HJ https://find.galegroup.com
-HJ https://galenet.gale.com
-HJ https://galenet.galegroup.com
-HJ https://galepages.com
-HJ https://gdc.gale.com
-HJ https://gdc.galegroup.com
-HJ https://go.gale.com
-HJ https://go.galegroup.com
-HJ https://infotrac.gale.com
-HJ https://infotrac.galegroup.com
-HJ https://link.gale.com
-HJ https://link.galegroup.com
-HJ https://lst.gale.com
-HJ https://lst.galegroup.com
-HJ https://misshumblebee.com
-HJ https://natgeo.gale.com
-HJ https://sa.gale.com
-HJ https://tinyurl.gale.com
-HJ https://worldscholar.gale.com
-HJ https://www.galepages.com
+HJ infotrac.gale.com
 HJ infotrac.galegroup.com
 HJ link.gale.com
-HJ link.galegroup.com
 HJ lst.gale.com
-HJ lst.galegroup.com
+HJ misshumblebee.com
 HJ natgeo.gale.com
 HJ sa.gale.com
 HJ tinyurl.gale.com
 HJ worldscholar.gale.com
-HJ www.galepages.com
 DJ gale.com
 DJ galegroup.com
 DJ galepages.com
-NeverProxy apis.google.com
-NeverProxy careerprep.petersons.com
+NeverProxy appcontent.chiltonlibrary.com
 NeverProxy cyber.gale.com
+NeverProxy *.dezinersoftware.com
+NeverProxy apis.google.com
 NeverProxy gale.udemy.com
 NeverProxy www.getsetup.io
-NeverProxy sso.connect.pingidentity.com
+NeverProxy careerprep.petersons.com
 NeverProxy tcpr.petersons.com
-NeverProxy *.dezinersoftware.com
-NeverProxy appcontent.chiltonlibrary.com
+NeverProxy sso.connect.pingidentity.com
 AnonymousURL -*
 
 # Lines below support Legacy Gale/Infotrac/PowerSearch Databases which operate on the galegroup domain. 
