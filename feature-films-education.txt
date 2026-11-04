@@ -1,0 +1,10 @@
+# INCLUDEFILE ../common_stanzas/feature-films-education.txt
+# Common_stanza used by: proxyiub, proxysb
+
+# Last reviewed by ralight 2026-11-04
+T Feature Films for Education
+U https://ffusa.infobase.com/
+HJ https://MEDIA3.CRITERIONPIC.COM /
+HJ https://MEDIA2.CRITERIONPIC.COM /
+D infobase.com
+DJ CRITERIONPIC.COM
