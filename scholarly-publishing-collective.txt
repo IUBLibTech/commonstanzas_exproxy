@@ -1,0 +1,9 @@
+# INCLUDEFILE ../common_stanzas/scholarly-publishing-collective.txt
+# Common_stanza used by: proxyiub, proxysb, proxyse
+
+# Last reviewed by ralight 2026-11-04
+Title Scholarly Publishing Collective (updated 20211013)
+URL https://scholarlypublishingcollective.org/
+HJ http://scholarlypublishingcollective.org
+HJ scholarlypublishingcollective.org
+DJ scholarlypublishingcollective.org
