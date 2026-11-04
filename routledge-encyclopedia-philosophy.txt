@@ -1,0 +1,10 @@
+# INCLUDEFILE ../common_stanzas/routledge-encyclopedia-philosophy.txt
+# Common_stanza used by: proxyiub, proxysb
+
+# Last reviewed by ralight 2026-11-04
+Title Routledge Encyclopedia of Philosophy
+URL https://www.rep.routledge.com
+HJ http://www.rep.routledge.com
+HJ rep.routledge.com
+HJ www.rep.routledge.com
+DJ routledge.com
