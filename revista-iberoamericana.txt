@@ -1,0 +1,10 @@
+# INCLUDEFILE ../common_stanzas/revista-iberoamericana.txt
+# Common_stanza used by: proxyiub, proxysb
+
+# Updated per ralight 2026-11-04
+Title Revista Iberoamericana
+URL http://revista-iberoamericana.pitt.edu/ojs/index.php/Iberoamericana/index
+HJ https://revista-iberoamericana.pitt.edu
+HJ http://revista-iberoamericana.pitt.edu
+HJ revista-iberoamericana.pitt.edu
+DJ pitt.edu
