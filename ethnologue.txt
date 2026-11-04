@@ -1,0 +1,8 @@
+# INCLUDEFILE ../common_stanzas/ethnologue.txt
+# Common_stanza used by: proxyiub, proxysb
+
+# Last reviewed by ralight 2026-11-04
+Title Ethnologue
+URL https://www.ethnologue.com
+HJ ethnologue.com
+DJ ethnologue.com
