@@ -1,0 +1,9 @@
+# INCLUDEFILE ../common_stanzas/forum-lwbooks.txt
+# Common_stanza used by: proxyiub, proxysb
+
+# Last reviewed by ralight 2026-11-10
+# Journal moving to Sage in 2027. Check to see if backfile remains on LWBooks platform following migration.
+Title Forum : for Promoting 3-19 Comprehensive Education
+URL https://journals.lwbooks.co.uk/forum
+HJ journals.lwbooks.co.uk
+DJ lwbooks.co.uk
