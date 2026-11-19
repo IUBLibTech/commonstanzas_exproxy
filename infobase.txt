@@ -1,10 +1,10 @@
 # INCLUDEFILE ../common_stanzas/infobase.txt
 # Common_stanza used by: proxyeast, proxyiub, proxyko, proxynw, proxysb
 
-# Updated per ralight 2026-09-09
+# Updated per ralight 2026-11-19
 AnonymousURL +https://ibaseptn.infobase.com/graphql
 AnonymousURL +https://learn360.infobase.com/Interactives/*
-Title Infobase (updated 20260908)
+Title Infobase (updated 20261112)
 URL https://access.infobase.com
 HJ https://access.infobase.com
 HJ https://avod.films.com
@@ -21,6 +21,7 @@ HJ https://ebooks.infobaselearning.com
 HJ https://fcg.infobase.com
 HJ https://ffusa.infobase.com
 HJ https://fod.infobase.com
+HJ https://ich.infobase.com
 HJ https://icof.infobase.com
 HJ https://jfk.infobase.com
 HJ https://learn360.infobase.com
@@ -61,6 +62,7 @@ HJ fcg.infobase.com
 HJ ffusa.infobase.com
 HJ fod.infobase.com
 HJ fofweb.com
+HJ ich.infobase.com
 HJ icof.infobase.com
 HJ jfk.infobase.com
 HJ learn360.infobase.com
