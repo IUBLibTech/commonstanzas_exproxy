@@ -1,7 +1,9 @@
 # INCLUDEFILE ../common_stanzas/rotunda.txt
 # Common_stanza used by: proxyiub, proxynw
+# This INCLUDEFILE line must appear in requireauthentication.txt
 
 # Updated per ralight 2026-08-12
+# Does not currently support IPv6, planning a platform migration in 2027 that would enable IPv6 support.
 Title University of Virginia Press - Rotunda (updated 20201119)
 URL https://rotunda.upress.virginia.edu
 HJ http://rotunda.upress.virginia.edu
